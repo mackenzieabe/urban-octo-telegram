@@ -1,45 +1,78 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
+    background-color: #d9dcd6; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 20px 30px;
     background-color: #2a607c;
+}
+
+header h1 {
+    font-weight: bold;
+    display: inline;
+    font-size: 50px;
     color: #ffffff;
+    margin: 0;
 }
+header a {
+    text-decoration: none;
+    color:#ffffff;
+} 
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
+header nav  {
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    margin: 7px 0;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
+header nav ul li {
+    display: inline;
     margin-left: 25px;
 }
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+} 
+.benefits div {
+    margin-bottom: 80px;
+} 
+.benefits img {
+    width: 30%;
+    margin: 10px 0;
+}
+.benefits span{
+    font-size: 38px;
+}
+footer {
+    background:#2a607c;
+    width: 100%;
+    padding: 40px 35px;
+    clear:both; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+} 
+footer h2 {
+    display:inline;
+    color: #024e76;
+    font-size: 30px;
+    margin:0;
+} 
+footer div {
+        line-height: 1.5;
+        text-align: right;
+}
+section {
+    padding: 80px;
+} 
 
 a {
     color: #ffffff;
@@ -51,46 +84,32 @@ p {
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image:url("../images/digital-marketing-meeting.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
+    margin-bottom: 25px;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
+.main-box {
+    width: 60%;
+    margin: 30 auto 30 auto;
+    background-color:#2589bd;
     color: #ffffff;
+    overflow: auto;
+} 
+.main-box img {
+    width: 35%;
 }
-
+ article {
+    padding: 35px;
+    float: left;
+    width:  65%;
+ } 
+ .benefits {
+    width: 100px;
+    margin: ;
+ }
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -162,7 +181,7 @@ p {
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: 20%;
 }
 
 .online-reputation-management img {
@@ -188,13 +207,3 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
