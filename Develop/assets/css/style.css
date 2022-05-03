@@ -59,7 +59,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-} 
+
 footer h2 {
     display:inline;
     color: #024e76;
@@ -108,7 +108,7 @@ p {
  } 
  .benefits {
     width: 100px;
-    margin: ;
+    margin:0;
  }
 .benefit-brand {
     margin-bottom: 32px;
